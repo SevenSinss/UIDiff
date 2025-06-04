@@ -1,0 +1,13 @@
+CUDA_VISIBLE_DEVICES=0 python main.py\
+ --model_name corediff\
+ --run_name dose10s2s_spect_100t\
+ --batch_size 8\
+ --max_iter 350000\
+ --test_dataset spect_10s2s\
+ --test_ids 0,1,2,3,4,5,6,7,8,9\
+ --context\
+ --only_adjust_two_step\
+ --dose 20\
+ --image_size 64\
+ --save_freq 2500\
+ --train_dataset spect_10s2s\
