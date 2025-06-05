@@ -27,3 +27,4 @@ einops>=0.4.1
 h5py>=3.7.0
 tifffile>=2023.7.10
 natsort>=8.2.0
+scikit-image>=0.21.0
